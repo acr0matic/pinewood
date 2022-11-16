@@ -1,0 +1,21 @@
+/* purgecss start ignore */
+
+.swiper {
+  &-wrapper {
+    box-sizing: border-box;
+  }
+
+  &-button {
+    &-prev,
+    &-next {
+    }
+
+    &-prev {
+    }
+
+    &-next {
+    }
+  }
+}
+
+/* purgecss end ignore */
