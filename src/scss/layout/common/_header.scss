@@ -3,9 +3,36 @@
 // -----------------------------------------------------------------------------
 
 #header {
-
 }
 
 .header {
+  @include breakpoint($breakpoint-laptop--medium) {
+    padding: 20px 0;
+  }
 
+  position: sticky;
+  z-index: $z-index-header;
+  top: 0;
+
+  width: 100%;
+  padding: 35px 0;
+  background-color: $palette-white;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 75px;
+  }
+
+  &__action {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--big + 2px;
+    }
+
+    margin-left: auto;
+    font-size: $font-size__text--large;
+  }
 }

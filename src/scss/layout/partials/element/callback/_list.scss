@@ -1,0 +1,13 @@
+.callback-list {
+  &__item a {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+
+    margin-right: 16px;
+  }
+}

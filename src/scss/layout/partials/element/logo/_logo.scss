@@ -8,5 +8,10 @@
   }
 
   &--header {
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 200px;
+    }
+
+    width: 260px;
   }
 }

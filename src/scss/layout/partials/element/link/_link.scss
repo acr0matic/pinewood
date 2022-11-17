@@ -1,8 +1,45 @@
 .link {
+  position: relative;
   transition: $transition ease;
 
   @media (hover: hover) {
-    &:hover {
+    &:hover::after {
+      width: 100%;
     }
+  }
+
+  &--icon {
+    @media (hover: hover) {
+      &:hover {
+        &::after {
+          width: 0;
+        }
+
+        .link__text::after {
+          width: 100%;
+        }
+      }
+    }
+
+    .link__text {
+      position: relative;
+    }
+  }
+}
+
+.link,
+.link__text {
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+
+    display: block;
+    width: 0%;
+    height: 2px;
+
+    background-color: #8b9d83;
+    transition: width $transition ease;
   }
 }
