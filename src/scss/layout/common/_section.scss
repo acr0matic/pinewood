@@ -1,5 +1,6 @@
 .section {
   &__header {
+    margin-bottom: 80px;
   }
 
   &__title {
@@ -8,10 +9,17 @@
     }
 
     font-size: $font-size__title--medium;
-    line-height: $line-height--secondary;
 
     span {
       color: $color-text__green;
     }
+  }
+
+  &__description {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--large;
+    }
+
+    font-size: $font-size__text--large + 4px;
   }
 }
