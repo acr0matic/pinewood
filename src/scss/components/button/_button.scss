@@ -1,17 +1,27 @@
 .button {
+  padding: 20px 35px;
   border: none;
-  border-radius: $border-radius--button;
+  border-radius: 1000px;
   outline: none;
 
   background-color: transparent;
 
+  font-size: $font-size__text--regular;
   white-space: nowrap;
-  cursor: pointer;
 
+  cursor: pointer;
   transition: all $transition ease;
 
   &:disabled {
     opacity: 0.5;
     pointer-events: none;
+  }
+
+  &--big {
+    padding: 30px 35px;
+  }
+
+  &--icon {
+    padding: 25px;
   }
 }

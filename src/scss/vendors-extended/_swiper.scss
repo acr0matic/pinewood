@@ -8,12 +8,54 @@
   &-button {
     &-prev,
     &-next {
+      @include breakpoint($breakpoint-laptop--medium) {
+        width: 54px;
+        height: 54px;
+      }
+
+      width: 65px;
+      height: 65px;
+
+      border: 3px solid $palette-green;
+      border-radius: 100px;
+      background-color: $palette-white;
+
+      transition: $transition ease;
+
+      @media (hover: hover) {
+        &:hover {
+          border-color: #6d8e5e;
+        }
+      }
+
+      &::after {
+        @include breakpoint($breakpoint-laptop--medium) {
+          transform: translate(-50%, -50%) scale(0.9);
+        }
+
+        position: absolute;
+        top: 50%;
+        font-size: initial;
+        transform: translate(-50%, -50%);
+      }
     }
 
     &-prev {
+      left: -85px;
+
+      &::after {
+        content: url("../img/icons/control/slider__prev.svg");
+        left: 47%;
+      }
     }
 
     &-next {
+      right: -85px;
+
+      &::after {
+        content: url("../img/icons/control/slider__next.svg");
+        left: 53%;
+      }
     }
   }
 }

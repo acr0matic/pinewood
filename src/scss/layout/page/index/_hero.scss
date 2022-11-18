@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// Фрагмент стилизации какой-то секции
+// -----------------------------------------------------------------------------
+
+#hero {
+  padding-top: 100px;
+}
+
+.hero {
+  &__content {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-top: 30px;
+    }
+
+    margin-top: 50px;
+  }
+
+  &__title {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__title--medium;
+    }
+
+    margin-bottom: 30px;
+    font-size: $font-size__title--large;
+  }
+
+  &__description {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-bottom: 65px;
+      font-size: $font-size__text--large;
+    }
+
+    margin-bottom: 135px;
+    font-size: $font-size__title--small - 4px;
+  }
+
+  &__action {
+    .button:first-child {
+      @include breakpoint($breakpoint-laptop--medium) {
+        margin-right: 30px;
+      }
+
+      margin-right: 100px;
+    }
+  }
+
+  &__offset {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-left: 0;
+    }
+
+    margin-left: 45px;
+  }
+
+  &__slider {
+    position: relative;
+  }
+
+  &__picture {
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 435px;
+    }
+
+    overflow: hidden;
+    height: 575px;
+    border-radius: 60px;
+  }
+
+  &__background {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+  }
+}

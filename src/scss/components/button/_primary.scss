@@ -1,0 +1,11 @@
+.button-primary {
+  background-color: $palette-green;
+  color: $color-text__white;
+  box-shadow: 3px 3px 20px rgba(#555d24, 0.302), -4px -4px 20px #ffffff;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: #6d8e5e;
+    }
+  }
+}
