@@ -11,5 +11,17 @@ const hero = new Swiper('.slider-hero', {
   },
 });
 
+const recent = new Swiper('.slider-recent', {
+  slidesPerView: 2,
+  speed: 300,
+  spaceBetween: 60,
+  simulateTouch: false,
+
+  navigation: {
+    nextEl: '.portfolio-recent .swiper-button-next',
+    prevEl: '.portfolio-recent .swiper-button-prev',
+  },
+});
+
 
 

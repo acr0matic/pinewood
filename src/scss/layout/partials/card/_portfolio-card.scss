@@ -1,0 +1,48 @@
+.portfolio-card {
+  @include breakpoint($breakpoint-laptop--medium) {
+    border-radius: 12px 12px 38px 38px;
+  }
+
+  overflow: hidden;
+  border: 4px solid $palette-green;
+  border-radius: 15px 15px 47px 47px;
+
+  &__picture {
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 270px;
+    }
+
+    height: 388px;
+  }
+
+  &__content {
+    @include breakpoint($breakpoint-laptop--medium) {
+      padding: 30px 20px;
+    }
+
+    display: flex;
+    align-items: center;
+
+    padding: 35px 50px;
+  }
+
+  &__title {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--regular;
+    }
+
+    display: -webkit-box;
+    overflow: hidden;
+
+    max-width: 60%;
+    margin-right: 24px;
+
+    font-size: $font-size__text--big + 2px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  &__button {
+    margin-left: auto;
+  }
+}

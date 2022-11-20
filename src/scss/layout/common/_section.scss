@@ -5,7 +5,7 @@
 
   &__title {
     @include breakpoint($breakpoint-laptop--medium) {
-      font-size: $font-size__title--small + 4px;
+      font-size: $font-size__title--small;
     }
 
     font-size: $font-size__title--medium;
@@ -17,7 +17,7 @@
 
   &__description {
     @include breakpoint($breakpoint-laptop--medium) {
-      font-size: $font-size__text--large;
+      font-size: $font-size__text--large - 3px;
     }
 
     font-size: $font-size__text--large + 4px;
