@@ -1,8 +1,12 @@
-#portfolio-recent {
-  margin-top: 100px;
+#service-recent {
+  @include breakpoint($breakpoint-laptop--medium) {
+    margin-top: 140px;
+  }
+
+  margin-top: 200px;
 }
 
-.portfolio-recent {
+.service-recent {
   &__slider {
     @include breakpoint($breakpoint-laptop--medium) {
       width: 85%;
