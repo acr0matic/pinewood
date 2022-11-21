@@ -1,0 +1,59 @@
+#quiz {
+  @include breakpoint($breakpoint-laptop--medium) {
+    padding-top: 130px;
+    padding-bottom: 160px;
+  }
+
+  position: relative;
+  overflow: hidden;
+  padding-top: 200px;
+  padding-bottom: 120px;
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.quiz {
+  border: 3px solid $palette-green;
+
+  background-color: #f5f1ec;
+
+  &__content,
+  &__slider,
+  form {
+    height: 100%;
+  }
+}
+
+.quiz-control {
+  position: absolute;
+  z-index: 5;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+
+  & > * {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+}
+
+.quiz-background {
+  @include breakpoint($breakpoint-laptop--medium) {
+    top: initial;
+    bottom: 0;
+    left: -20px;
+
+    width: 450px;
+  }
+
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -240px;
+}

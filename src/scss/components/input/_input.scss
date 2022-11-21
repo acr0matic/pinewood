@@ -3,46 +3,71 @@
 
   &--error {
     .input__field {
-      border-color: #e64747;
+      border-color: $input-error !important;
     }
 
     .input__warning {
+      bottom: -25px;
       opacity: 1;
       visibility: visible;
     }
   }
 
   &__field {
-    width: 100%;
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 230px;
+      border-width: 2px;
+      border-radius: 20px;
+      font-size: $font-size__text--big;
+    }
+
+    width: 310px;
     padding: 20px 25px;
 
-    border: 1px solid $palette-black;
+    border: 3px solid #d4d4d4;
+    border-radius: 26px;
     outline: none;
 
-    background-color: transparent;
+    background-color: $palette-white;
     color: $color-text__black;
 
-    font-size: $font-size__text--regular;
+    font-size: $font-size__text--large - 2px;
+    transition: $transition ease;
+
+    &--block {
+      width: 100%;
+    }
+
+    &:hover,
+    &:focus {
+      border-color: $component-active;
+    }
 
     &::placeholder {
-      color: #353535;
+      color: #808080;
+    }
+
+    &[type="number"] {
+      appearance: textfield;
+
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        appearance: none;
+      }
     }
   }
 
   &__warning {
     position: absolute;
-    top: 50%;
-    right: 15px;
+    bottom: -35px;
+    left: 30px;
 
-    width: 24px;
-    height: 24px;
+    color: $input-error;
+    font-size: $font-size__text--small;
 
     opacity: 0;
     visibility: hidden;
 
-    cursor: help;
-    transform: translateY(-50%);
-
-    transition: 0.2s ease;
+    transition: $transition ease;
   }
 }

@@ -1,0 +1,10 @@
+.button-outline {
+  border-color: $palette-green;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: $component-active;
+      color: $color-text__white;
+    }
+  }
+}

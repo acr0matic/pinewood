@@ -645,6 +645,375 @@
       </div>
       <!-- /.container -->
     </section>
+
+    <section id="quiz" class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">
+            Ответьте на <span>5 простых вопросов</span>
+            <br>
+            и получите расчеты по вашему объекту
+          </h2>
+        </div>
+        <!-- /.section__header -->
+
+        <div class="quiz">
+          <div class="row">
+            <div class="col-7">
+              <div class="quiz__content quiz-content">
+                <form action="" data-target="quiz" data-subject="Рассчеты по объекту">
+                  <div class="quiz__slider swiper slider-quiz">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="quiz-content__counter">
+                          Вопрос 1 / 5
+                        </div>
+                        <!-- /.quiz-content__counter -->
+
+                        <h3 class="quiz-content__title">Укажите площадь дома:</h3>
+                        <div class="input">
+                          <input placeholder="500 м2" autocomplete="off" type="number" name="quiz_area" class="input__field">
+                          <span class="input__warning">Некорректное значение</span>
+                        </div>
+                        <!-- /.input -->
+                      </div>
+                      <!-- /.swiper-slide -->
+
+                      <div class="swiper-slide">
+                        <div class="quiz-content__counter">
+                          Вопрос 2 / 5
+                        </div>
+                        <!-- /.quiz-content__counter -->
+
+                        <h3 class="quiz-content__title">Укажите метериал дома:</h3>
+                        <div class="row gy-5">
+                          <div class="col-4">
+                            <label class="checkbox checkbox--image" style="--image: url('../img/layout/section/quiz/content/material/1.jpg');">
+                              <input type="radio" name="material">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Клееный брус</span>
+                            </label>
+                          </div>
+                          <!-- /.col-4 -->
+
+                          <div class="col-4">
+                            <label class="checkbox checkbox--image" style="--image: url('../img/layout/section/quiz/content/material/2.jpg');">
+                              <input type="radio" name="material">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">
+                                Профилированный
+                                <br>
+                                брус
+                              </span>
+                            </label>
+                          </div>
+                          <!-- /.col-4 -->
+
+                          <div class="col-4">
+                            <label class="checkbox checkbox--image" style="--image: url('../img/layout/section/quiz/content/material/3.jpg');">
+                              <input type="radio" name="material">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">
+                                Оцилиндрованное
+                                <br>
+                                бревно
+                              </span>
+                            </label>
+                          </div>
+                          <!-- /.col-4 -->
+
+                          <div class="col-4">
+                            <label class="checkbox checkbox--image" style="--image: url('../img/layout/section/quiz/content/material/4.jpg');">
+                              <input type="radio" name="material">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Лафет</span>
+                            </label>
+                          </div>
+                          <!-- /.col-4 -->
+
+                          <div class="col-4">
+                            <label class="checkbox checkbox--image" style="--image: url('../img/layout/section/quiz/content/material/5.jpg');">
+                              <input type="radio" name="material">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Рубленное бревно</span>
+                            </label>
+                          </div>
+                          <!-- /.col-4 -->
+                        </div>
+                        <!-- /.row -->
+                      </div>
+                      <!-- /.swiper-slide -->
+
+                      <div class="swiper-slide">
+                        <div class="quiz-content__counter">
+                          Вопрос 3 / 5
+                        </div>
+                        <!-- /.quiz-content__counter -->
+
+                        <h3 class="quiz-content__title">Есть ли у вас смета на внутреннюю отделку?</h3>
+                        <div class="row gy-5">
+                          <div class="col-4">
+                            <label class="checkbox">
+                              <input type="radio" name="estimate">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Да, смета есть</span>
+                            </label>
+                          </div>
+                          <!-- /.col-4 -->
+
+                          <div class="col-4">
+                            <label class="checkbox">
+                              <input type="radio" name="estimate" checked>
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">У меня нет сметы</span>
+                            </label>
+                          </div>
+                          <!-- /.col-4 -->
+                        </div>
+                      </div>
+                      <!-- /.swiper-slide -->
+
+                      <div class="swiper-slide">
+                        <div class="quiz-content__counter">
+                          Вопрос 4 / 5
+                        </div>
+                        <!-- /.quiz-content__counter -->
+
+                        <h3 class="quiz-content__title">Когда планируете начать работы по внутренней отделке?</h3>
+                        <div class="row gy-5">
+                          <div class="col-4">
+                            <label class="checkbox">
+                              <input type="radio" name="deadline" checked>
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Как можно быстрее</span>
+                            </label>
+                          </div>
+                          <!-- /.col-4 -->
+
+                          <div class="col-8">
+                            <label class="checkbox">
+                              <input type="radio" name="deadline">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">В течение этого года</span>
+                            </label>
+                          </div>
+                          <!-- /.col-8 -->
+
+                          <div class="col-4">
+                            <label class="checkbox">
+                              <input type="radio" name="deadline">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">В течение месяца</span>
+                            </label>
+                          </div>
+                          <!-- /.col-4 -->
+
+                          <div class="col-8">
+                            <label class="checkbox">
+                              <input type="radio" name="deadline">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Пока нет точного плана</span>
+                            </label>
+                          </div>
+                          <!-- /.col-8 -->
+                        </div>
+                      </div>
+                      <!-- /.swiper-slide -->
+
+                      <div class="swiper-slide">
+                        <div class="quiz-content__counter">
+                          Вопрос 5 / 5
+                        </div>
+                        <!-- /.quiz-content__counter -->
+
+                        <h3 class="quiz-content__title">Когда планируете начать работы по внутренней отделке?</h3>
+                        <div class="row gy-4">
+                          <div class="col-6">
+                            <label class="checkbox">
+                              <input type="checkbox" name="type">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Шлифовка и покраска</span>
+                            </label>
+                          </div>
+                          <!-- /.col-6 -->
+
+                          <div class="col-6">
+                            <label class="checkbox">
+                              <input type="checkbox" name="type">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Плиточные работы</span>
+                            </label>
+                          </div>
+                          <!-- /.col-6 -->
+
+                          <div class="col-6">
+                            <label class="checkbox">
+                              <input type="checkbox" name="type">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Отделка и устройство потолков, пола и стен</span>
+                            </label>
+                          </div>
+                          <!-- /.col-6 -->
+
+                          <div class="col-6">
+                            <label class="checkbox">
+                              <input type="checkbox" name="type">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Установка дверей и окон</span>
+                            </label>
+                          </div>
+                          <!-- /.col-6 -->
+
+                          <div class="col-6">
+                            <label class="checkbox">
+                              <input type="checkbox" name="type">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Прокладка инженерных систем</span>
+                            </label>
+                          </div>
+                          <!-- /.col-6 -->
+
+                          <div class="col-6">
+                            <label class="checkbox">
+                              <input type="checkbox" name="type">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Сантехнические услуги</span>
+                            </label>
+                          </div>
+                          <!-- /.col-6 -->
+
+                          <div class="col-6">
+                            <label class="checkbox">
+                              <input type="checkbox" name="type">
+                              <span class="checkbox__mark"></span>
+                              <span class="checkbox__label">Все работы «под ключ»</span>
+                            </label>
+                          </div>
+                          <!-- /.col-6 -->
+
+                          <div class="col-6">
+                            <div class="input">
+                              <input placeholder="Свой вариант" autocomplete="off" type="text" name="type" class="input__field input__field--block">
+                              <span class="input__warning">Некорректное значение</span>
+                            </div>
+                            <!-- /.input -->
+                          </div>
+                          <!-- /.col-6 -->
+                        </div>
+                      </div>
+                      <!-- /.swiper-slide -->
+
+                      <div class="swiper-slide">
+                        <div class="quiz-content__counter">
+                          Остался последний шаг
+                        </div>
+                        <!-- /.quiz-content__counter -->
+
+                        <h3 class="quiz-content__title">
+                          Получите оптимизацию сметы
+                          <br>
+                          и точный план всех работ
+                        </h3>
+
+                        <div class="row">
+                          <div class="col-6">
+                            <div class="input">
+                              <input placeholder="Ваш телефон" autocomplete="off" type="tel" name="quiz_tel" class="input__field input__field--block">
+                              <span class="input__warning">Некорректное значение</span>
+                            </div>
+                            <!-- /.input -->
+                          </div>
+                          <!-- /.col-6 -->
+
+                          <div class="col-6">
+                            <div class="input">
+                              <input placeholder="Ваша почта" autocomplete="off" type="email" name="quiz_email" class="input__field input__field--block">
+                              <span class="input__warning">Некорректное значение</span>
+                            </div>
+                            <!-- /.input -->
+                          </div>
+                          <!-- /.col-6 -->
+                        </div>
+                        <!-- /.row -->
+
+                        <div class="quiz-content__action">
+                          <button data-sending="Отправляем..." type="submit" class="button button--arrow button-primary">Получить рассчет</button>
+                        </div>
+                        <!-- /.quiz-content__action -->
+                      </div>
+                      <!-- /.swiper-slide -->
+                    </div>
+                    <!-- /.swiper-wrapper -->
+
+                    <div class="quiz-control">
+                      <button class="button button--arrow button-outline">Назад</button>
+                      <button class="button button--arrow button-primary">Далее</button>
+                    </div>
+                    <!-- /.quiz-control -->
+                  </div>
+                  <!-- /.swiper slider-quiz -->
+                </form>
+              </div>
+              <!-- /.quiz__content quiz-content -->
+            </div>
+            <!-- /.col-7 -->
+
+            <div class="col-5">
+              <div class="quiz__info quiz-info">
+                <div class="quiz-info__top">
+                  <div class="quiz-info__author">
+                    <picture class="quiz-info__avatar">
+                      <img class="image image--cover" src="img/layout/section/quiz/info/avatar.jpg" alt="">
+                    </picture>
+
+                    <div>
+                      <h4 class="quiz-info__name">Иванов Борис</h4>
+                      <div class="quiz-info__role">Инженер проектов</div>
+                    </div>
+                  </div>
+                  <!-- /.quiz-info__author -->
+
+                  <p class="quiz-info__about">
+                    Здравствуйте, меня зовут Борис, и я помогу Вам понять, какой бюджет нужен для отделки вашего дома под ключ
+                  </p>
+                </div>
+                <!-- /.quiz-info__top -->
+
+                <div class="quiz-info__content">
+                  <h3 class="quiz-info__title">Ответив на вопросы, Вы получите:</h3>
+                  <ul class="quiz-info__list">
+                    <li>
+                      <img src="img/layout/section/quiz/info/1.svg" alt="">
+                      Ориентировочную стоимость
+                    </li>
+
+                    <li>
+                      <img src="img/layout/section/quiz/info/2.svg" alt="">
+                      Точную подборку проектов, исходя из ваших ответов,
+                      либо предложим новый вариант
+                    </li>
+
+                    <li>
+                      <img src="img/layout/section/quiz/info/3.svg" alt="">
+                      Один из 3-х подарков
+                      при заказе отделки у нас
+                    </li>
+                  </ul>
+                </div>
+                <!-- /.quiz-info__content -->
+              </div>
+              <!-- /.quiz__info quiz-info -->
+            </div>
+            <!-- /.col-5 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.quiz -->
+      </div>
+      <!-- /.container -->
+
+      <img class="quiz-background" src="img/layout/section/quiz/background.svg" alt="">
+    </section>
   </main>
 
   <!-- Подвал -->

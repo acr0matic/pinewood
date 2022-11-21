@@ -47,5 +47,22 @@ const recentService = new Swiper('.slider-recent-service', {
   },
 });
 
+const quiz = new Swiper('.slider-quiz', {
+  slidesPerView: 1,
+  speed: 300,
+  spaceBetween: 16,
+  simulateTouch: false,
+
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
+
+  navigation: {
+    nextEl: '.slider-quiz .quiz-control .button-primary',
+    prevEl: '.slider-quiz .quiz-control .button-outline',
+  },
+});
+
 
 
