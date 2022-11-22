@@ -3,9 +3,50 @@
 // -----------------------------------------------------------------------------
 
 #footer {
+  padding-top: 75px;
+  padding-bottom: 100px;
 
+  box-shadow: inset 0 0 0 5px $palette-green;
 }
 
 .footer {
+  &__logo {
+    margin-bottom: 12px;
+  }
 
+  &__about {
+    margin-bottom: 36px;
+    font-size: $font-size__text--small;
+  }
+
+  &__info {
+    color: $color-text__gray;
+    font-size: $font-size__text--regular;
+  }
+
+  &__nav {
+    display: flex;
+
+    margin-top: 30px;
+
+    & > nav {
+      &:not(:last-child) {
+        margin-right: 70px;
+      }
+    }
+  }
+
+  &__contact {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--big + 2px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin-top: 30px;
+
+    font-size: $font-size__text--large;
+  }
 }
