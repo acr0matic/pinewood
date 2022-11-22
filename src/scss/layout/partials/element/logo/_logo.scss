@@ -16,6 +16,10 @@
   }
 
   &--footer {
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 220px;
+    }
+
     width: 260px;
   }
 }

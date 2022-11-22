@@ -24,6 +24,10 @@
   }
 
   &__logo {
+    @include breakpoint($breakpoint-laptop) {
+      margin-right: 20px;
+    }
+
     margin-right: 75px;
   }
 

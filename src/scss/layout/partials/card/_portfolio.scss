@@ -18,6 +18,10 @@
       padding: 30px 20px;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      flex-direction: column;
+    }
+
     display: flex;
     align-items: center;
 
@@ -27,6 +31,15 @@
   &__title {
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-size__text--regular;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      max-width: 100%;
+
+      margin-right: 0;
+      margin-bottom: 30px;
+
+      text-align: center;
     }
 
     display: -webkit-box;
@@ -41,6 +54,7 @@
   }
 
   &__button {
+    margin-top: auto;
     margin-left: auto;
   }
 }

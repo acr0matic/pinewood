@@ -63,6 +63,13 @@
       margin-right: 20px;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 32px;
+      height: 32px;
+
+      border-width: 3px;
+    }
+
     position: relative;
     display: block;
 
@@ -97,6 +104,10 @@
     &::after {
       @include breakpoint($breakpoint-laptop--medium) {
         transform: translate(-50%, -50%) scale(0.8);
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        transform: translate(-50%, -50%) scale(0.6);
       }
 
       content: url("../img/icons/control/check--small.svg");

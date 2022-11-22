@@ -19,19 +19,23 @@ const hero = new Swiper('.slider-hero', {
 const recentPortfolio = new Swiper('.slider-recent-portfolio', {
   slidesPerView: 2,
   speed: 300,
-  spaceBetween: 60,
+  spaceBetween: 40,
   simulateTouch: false,
 
   navigation: {
     nextEl: '.portfolio-recent .swiper-button-next',
     prevEl: '.portfolio-recent .swiper-button-prev',
   },
+
+  991: {
+    spaceBetween: 60,
+  },
 });
 
 const recentService = new Swiper('.slider-recent-service', {
-  slidesPerView: 3,
+  slidesPerView: 2,
   speed: 300,
-  spaceBetween: 30,
+  spaceBetween: 75,
   simulateTouch: false,
 
   navigation: {
@@ -40,7 +44,12 @@ const recentService = new Swiper('.slider-recent-service', {
   },
 
   breakpoints: {
-    1740: {
+    991: {
+      spaceBetween: 30,
+      slidesPerView: 3,
+    },
+
+    1800: {
       spaceBetween: 60,
       slidesPerView: 4,
     },
@@ -76,6 +85,7 @@ const quizInner = new Swiper('.slider-quiz-inner', {
   speed: 300,
   spaceBetween: 16,
   simulateTouch: false,
+  // autoHeight: true,
 
   effect: 'fade',
   fadeEffect: {

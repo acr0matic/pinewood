@@ -1,7 +1,6 @@
 .button {
   @include breakpoint($breakpoint-laptop--medium) {
     padding: 14px 40px;
-    font-size: $font-size__text--regular;
   }
 
   padding: 20px 35px;
@@ -23,10 +22,24 @@
   }
 
   &--big {
+    @include breakpoint($breakpoint-tablet--large) {
+      padding: 20px;
+      font-size: 12px;
+    }
+
     padding: 30px 35px;
   }
 
   &--icon {
+    @include breakpoint($breakpoint-tablet--large) {
+      padding: 15px;
+
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
     padding: 25px;
   }
 

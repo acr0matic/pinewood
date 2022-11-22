@@ -1,4 +1,8 @@
 #process {
+  @include breakpoint($breakpoint-tablet--large) {
+    margin-top: 130px;
+  }
+
   margin-top: 225px;
 
   .section__header {
@@ -20,11 +24,19 @@
         margin-bottom: -80px;
       }
 
+      @include breakpoint($breakpoint-tablet--large) {
+        margin-bottom: -45px;
+      }
+
       margin-bottom: -120px;
 
       & > div {
         @include breakpoint($breakpoint-laptop--medium) {
           margin-bottom: 80px;
+        }
+
+        @include breakpoint($breakpoint-tablet--large) {
+          margin-bottom: 45px;
         }
 
         margin-bottom: 120px;
@@ -48,6 +60,10 @@
       font-size: 64px;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 48px;
+    }
+
     margin-right: 60px;
 
     color: $color-text__green;
@@ -59,6 +75,10 @@
   &__title {
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-size__text--large;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__text--big;
     }
 
     margin-bottom: 16px;

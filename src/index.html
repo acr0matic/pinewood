@@ -72,7 +72,7 @@
         </div>
         <!-- /.header__logo -->
 
-        <div class="header__nav">
+        <div class="header__nav d-none d-lg-block">
           <nav class="nav nav--header">
             <ul class="nav__list">
               <li class="nav__item link">
@@ -100,7 +100,7 @@
         </div>
         <!-- /.header__nav -->
 
-        <div class="header__action">
+        <div class="header__action d-none d-lg-block">
           <div class="callback-list">
             <div class="callback-list__item">
               <a class="link link--icon" href="tel:+77777777777">
@@ -125,7 +125,7 @@
       <div class="container">
         <div class="hero">
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 position-relative" style="z-index: 2;">
               <div class="hero__content">
                 <h1 class="hero__title section__title">
                   Отделка
@@ -219,7 +219,7 @@
               </div>
               <!-- /.col-6 -->
 
-              <div class="col-5 col-xxl-6 offset-1 offset-xxl-0">
+              <div class="col-6 col-lg-5 col-xxl-6 offset-lg-1 offset-xxl-0">
                 <p class="section__description">
                   Вы будете получать фото и видео
                   <br>
@@ -234,7 +234,7 @@
 
           <div class="process__wrapper swiper swiper--bootstrap">
             <div class="row justify-content-between swiper-wrapper">
-              <div class="col-4 swiper-slide">
+              <div class="col-6 col-lg-4 swiper-slide">
                 <div class="process__item">
                   <div class="process__step">
                     1
@@ -253,7 +253,7 @@
               </div>
               <!-- /.col-4 -->
 
-              <div class="col-4 swiper-slide">
+              <div class="col-6 col-lg-4 swiper-slide">
                 <div class="process__item">
                   <div class="process__step">
                     2
@@ -272,7 +272,7 @@
               </div>
               <!-- /.col-4 -->
 
-              <div class="col-4 swiper-slide">
+              <div class="col-6 col-lg-4 swiper-slide">
                 <div class="process__item">
                   <div class="process__step">
                     3
@@ -291,7 +291,7 @@
               </div>
               <!-- /.col-4 -->
 
-              <div class="col-4 swiper-slide">
+              <div class="col-6 col-lg-4 swiper-slide">
                 <div class="process__item">
                   <div class="process__step">
                     4
@@ -299,9 +299,9 @@
                   <!-- /.process__step -->
 
                   <div class="process__wrapper">
-                    <h3 class="process__title">Заявка</h3>
+                    <h3 class="process__title">Заключение договора</h3>
                     <p class="process__description">
-                      Вы оставляете заявку на сайте или звоните нам по телефону
+                      Вы заключаете официальный договор, где прописаны все наши обязательства
                     </p>
                   </div>
                   <!-- /.process__wrapper -->
@@ -310,7 +310,7 @@
               </div>
               <!-- /.col-4 -->
 
-              <div class="col-4 swiper-slide">
+              <div class="col-6 col-lg-4 swiper-slide">
                 <div class="process__item">
                   <div class="process__step">
                     5
@@ -318,9 +318,9 @@
                   <!-- /.process__step -->
 
                   <div class="process__wrapper">
-                    <h3 class="process__title">Выезд на объект</h3>
+                    <h3 class="process__title">Процесс работы</h3>
                     <p class="process__description">
-                      В удобное для вас время специалист приезжает на объект для замера и просчета
+                      Мы выполняем работы, присылаем отчеты, а вы частями оплачиваете каждый принятый этап
                     </p>
                   </div>
                   <!-- /.process__wrapper -->
@@ -329,7 +329,7 @@
               </div>
               <!-- /.col-4 -->
 
-              <div class="col-4 swiper-slide">
+              <div class="col-6 col-lg-4 swiper-slide">
                 <div class="process__item">
                   <div class="process__step">
                     6
@@ -337,9 +337,9 @@
                   <!-- /.process__step -->
 
                   <div class="process__wrapper">
-                    <h3 class="process__title">Согласование сметы</h3>
+                    <h3 class="process__title">Сдача проекта</h3>
                     <p class="process__description">
-                      Перед началом работ вы знаете точную стоимость и сроки всех услуг
+                      Все работы проверяет отдел по контролю качества и только после этого вы принимаете объект
                     </p>
                   </div>
                   <!-- /.process__wrapper -->
@@ -366,13 +366,15 @@
             <div class="col-6">
               <h2 class="section__title">
                 Более <span>130 выполненых проектов</span>
-                <br>
-                по всей Москве и области
+                <br class="d-none d-xl-block">
+                по всей
+                <br class="d-block d-xl-none">
+                Москве и области
               </h2>
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-5 col-xxl-6 offset-1 offset-xxl-0">
+            <div class="col-6 col-lg-5 col-xxl-6 offset-lg-1 offset-xxl-0">
               <p class="section__description">
                 По предварительной записи, Вы можете
                 посетить объект,
@@ -486,7 +488,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-5 col-xxl-6 offset-1 offset-xxl-0">
+            <div class="col-6 col-lg-5 col-xxl-6 offset-lg-1 offset-xxl-0">
               <p class="section__description">
                 Несем ответственность
                 <br>
@@ -662,13 +664,13 @@
 
         <div class="quiz">
           <div class="row">
-            <div class="col-7">
+            <div class="col-12 col-lg-7">
               <div class="quiz__content quiz-content">
                 <form action="" data-target="quiz" data-subject="Рассчеты по объекту">
                   <div class="quiz__slider swiper slider-quiz">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
-                        <div class="swiper slider-quiz-inner h-100">
+                        <div class="swiper slider-quiz-inner">
                           <div class="swiper-wrapper">
                             <div class="swiper-slide">
                               <div class="quiz-content__counter">
@@ -757,7 +759,7 @@
                               <!-- /.quiz-content__counter -->
 
                               <h3 class="quiz-content__title">Есть ли у вас смета на внутреннюю отделку?</h3>
-                              <div class="row gy-5">
+                              <div class="row gy-4 gy-xxl-5">
                                 <div class="col-6 col-xxl-4">
                                   <label class="checkbox">
                                     <input type="radio" name="estimate">
@@ -786,7 +788,7 @@
                               <!-- /.quiz-content__counter -->
 
                               <h3 class="quiz-content__title">Когда планируете начать работы по внутренней отделке?</h3>
-                              <div class="row gy-5">
+                              <div class="row gy-4 gy-xxl-5">
                                 <div class="col-6 col-xxl-4">
                                   <label class="checkbox">
                                     <input type="radio" name="deadline" checked>
@@ -993,7 +995,7 @@
             </div>
             <!-- /.col-7 -->
 
-            <div class="col-5">
+            <div class="col-12 col-lg-5">
               <div class="quiz__info quiz-info">
                 <div class="quiz-info__top">
                   <div class="quiz-info__author">
@@ -1056,31 +1058,40 @@
     <div class="container">
       <div class="footer">
         <div class="row">
-          <div class="col-3">
-            <div class="footer__logo logo logo--header">
-              <a href="">
-                <img src="img/logo.png" alt="">
-              </a>
+          <div class="order-2 order-lg-0 col-12 col-lg-3 mt-5 mt-lg-0">
+            <div class="row align-items-end">
+              <div class="col-6 col-lg-12">
+                <div class="footer__logo logo logo--header">
+                  <a href="">
+                    <img src="img/logo.png" alt="">
+                  </a>
+                </div>
+                <!-- /.footer__logo -->
+
+                <p class="footer__about">
+                  Отделка деревянных домов
+                  <br>
+                  в Москве и области
+                </p>
+              </div>
+              <!-- /.col-12 -->
+
+              <div class="col-6 col-lg-12">
+                <p class="footer__info">
+                  ООО "Пайнвуд Хомс"
+                  <br>
+                  ИНН: 9715410587
+                  <br>
+                  ОГРН: 1217700593857
+                </p>
+              </div>
+              <!-- /.col-12 -->
             </div>
-            <!-- /.footer__logo -->
-
-            <p class="footer__about">
-              Отделка деревянных домов
-              <br>
-              в Москве и области
-            </p>
-
-            <p class="footer__info">
-              ООО "Пайнвуд Хомс"
-              <br>
-              ИНН: 9715410587
-              <br>
-              ОГРН: 1217700593857
-            </p>
+            <!-- /.row -->
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-5">
+          <div class="order-0 order-lg-0 col-6 col-lg-4 col-xl-5">
             <div class="footer__nav">
               <nav class="nav nav--footer">
                 <ul class="nav__list">
@@ -1120,7 +1131,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-4">
+          <div class="order-1 order-lg-0 col-6 col-lg-5 col-xl-4">
             <div class="footer__contact">
               <div class="callback-list">
                 <div class="callback-list__item">

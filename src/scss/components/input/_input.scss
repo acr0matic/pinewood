@@ -61,6 +61,10 @@
   }
 
   &__warning {
+    @include breakpoint($breakpoint-laptop--medium) {
+      left: 20px;
+    }
+
     position: absolute;
     bottom: -35px;
     left: 30px;

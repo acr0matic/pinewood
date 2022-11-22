@@ -21,12 +21,16 @@
         height: 54px;
       }
 
+      @include breakpoint($breakpoint-tablet--large) {
+        border-width: 2px;
+      }
+
       width: 65px;
       height: 65px;
 
       border: 3px solid $palette-green;
       border-radius: 100px;
-      background-color: $palette-white;
+      background-color: $palette-white--pale;
 
       transition: $transition ease;
 

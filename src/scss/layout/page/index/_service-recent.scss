@@ -12,8 +12,32 @@
       width: 85%;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+    }
+
     width: 90%;
     margin: 0 auto;
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      @include breakpoint($breakpoint-tablet--large) {
+        top: initial;
+        bottom: -125px;
+      }
+    }
+
+    .swiper-button-prev {
+      @include breakpoint($breakpoint-tablet--large) {
+        left: 20%;
+      }
+    }
+
+    .swiper-button-next {
+      @include breakpoint($breakpoint-tablet--large) {
+        right: 20%;
+      }
+    }
   }
 
   &__action {

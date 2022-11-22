@@ -3,6 +3,11 @@
 // -----------------------------------------------------------------------------
 
 #hero {
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-top: 60px;
+  }
+
+  overflow: hidden;
   padding-top: 100px;
 }
 
@@ -20,6 +25,10 @@
       font-size: $font-size__title--medium;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__title--small;
+    }
+
     margin-bottom: 30px;
     font-size: $font-size__title--large;
     line-height: $line-height--secondary;
@@ -31,6 +40,10 @@
       font-size: $font-size__text--large;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__text--big;
+    }
+
     margin-bottom: 135px;
     font-size: $font-size__title--small - 4px;
   }
@@ -39,6 +52,10 @@
     .button:first-child {
       @include breakpoint($breakpoint-laptop--medium) {
         margin-right: 30px;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        margin-right: 20px;
       }
 
       margin-right: 100px;
@@ -54,12 +71,21 @@
   }
 
   &__slider {
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 150%;
+    }
+
     position: relative;
   }
 
   &__picture {
     @include breakpoint($breakpoint-laptop--medium) {
       height: 435px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      height: 380px;
+      border-radius: 30px;
     }
 
     overflow: hidden;
