@@ -16,7 +16,13 @@
     z-index: 2;
 
     .row {
-      &:first-child {
+      @include breakpoint($breakpoint-laptop--medium) {
+        margin-bottom: -80px;
+      }
+
+      margin-bottom: -120px;
+
+      & > div {
         @include breakpoint($breakpoint-laptop--medium) {
           margin-bottom: 80px;
         }
@@ -59,5 +65,9 @@
 
     font-weight: $weight-Regular;
     font-size: $font-size__title--small;
+  }
+
+  &__description {
+    width: 80%;
   }
 }
