@@ -59,8 +59,39 @@ const quiz = new Swiper('.slider-quiz', {
   },
 
   navigation: {
-    nextEl: '.slider-quiz .quiz-control .button-primary',
-    prevEl: '.slider-quiz .quiz-control .button-outline',
+    prevEl: '.slider-quiz > .quiz-control .button-outline',
+  },
+
+  on: {
+    slideChangeTransitionStart: function (e) {
+      if (e.isEnd) e.navigation.prevEl.parentNode.classList.remove('hidden');
+      else e.navigation.prevEl.parentNode.classList.add('hidden');
+    },
+  },
+});
+
+
+const quizInner = new Swiper('.slider-quiz-inner', {
+  slidesPerView: 1,
+  speed: 300,
+  spaceBetween: 16,
+  simulateTouch: false,
+
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
+
+  navigation: {
+    nextEl: '.slider-quiz-inner .quiz-control .button-primary',
+    prevEl: '.slider-quiz-inner .quiz-control .button-outline',
+  },
+
+  on: {
+    slideChangeTransitionStart: function (e) {
+      if (e.isEnd) e.navigation.nextEl.classList.add('hidden');
+      else e.navigation.nextEl.classList.remove('hidden');
+    },
   },
 });
 

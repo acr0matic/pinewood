@@ -20,6 +20,11 @@
     }
 
     .checkbox__mark {
+      @include breakpoint($breakpoint-laptop--medium) {
+        width: 100px;
+        height: 100px;
+      }
+
       width: 140px;
       height: 140px;
 
@@ -51,6 +56,13 @@
   }
 
   &__mark {
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 44px;
+      height: 44px;
+
+      margin-right: 20px;
+    }
+
     position: relative;
     display: block;
 
@@ -83,6 +95,10 @@
     }
 
     &::after {
+      @include breakpoint($breakpoint-laptop--medium) {
+        transform: translate(-50%, -50%) scale(0.8);
+      }
+
       content: url("../img/icons/control/check--small.svg");
       position: absolute;
       top: 50%;
@@ -112,6 +128,10 @@
   }
 
   &__label {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--regular;
+    }
+
     margin-top: 2px;
 
     font-size: $font-size__text--big + 2px;

@@ -16,8 +16,11 @@
   &__field {
     @include breakpoint($breakpoint-laptop--medium) {
       width: 230px;
+      padding: 16px 18px;
+
       border-width: 2px;
-      border-radius: 20px;
+      border-radius: 18px;
+
       font-size: $font-size__text--big;
     }
 

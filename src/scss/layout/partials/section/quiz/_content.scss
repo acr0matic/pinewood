@@ -5,14 +5,21 @@
 
   padding: 50px;
 
-  &__counter {
+  &__counter,
+  &__text {
     @include breakpoint($breakpoint-laptop--medium) {
-      margin-bottom: 30px;
       font-size: $font-size__text--big + 2px;
     }
 
-    margin-bottom: 50px;
     font-size: $font-size__text--large;
+  }
+
+  &__counter {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-bottom: 30px;
+    }
+
+    margin-bottom: 50px;
   }
 
   &__title {
