@@ -13,6 +13,10 @@
     @include breakpoint($breakpoint-tablet--large) {
       right: calc(500px - 46.5vw);
     }
+
+    @include breakpoint($breakpoint-tablet) {
+      right: 16px;
+    }
   }
 
   .swiper-button-disabled {

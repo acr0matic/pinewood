@@ -3,6 +3,10 @@
     margin-top: 140px;
   }
 
+  @include breakpoint($breakpoint-tablet) {
+    margin-top: 100px;
+  }
+
   margin-top: 200px;
 }
 
@@ -24,6 +28,10 @@
       @include breakpoint($breakpoint-tablet--large) {
         top: initial;
         bottom: -125px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        display: none;
       }
     }
 

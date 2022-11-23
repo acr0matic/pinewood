@@ -124,8 +124,8 @@
     <section id="hero" class="section">
       <div class="container">
         <div class="hero">
-          <div class="row">
-            <div class="col-6 position-relative" style="z-index: 2;">
+          <div class="row flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-6 position-relative" style="z-index: 2;">
               <div class="hero__content">
                 <h1 class="hero__title section__title">
                   Отделка
@@ -157,7 +157,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="hero__offset col-6 col-xxl-5 px-xxl-0 position-relative">
+            <div class="hero__offset col-12 col-md-6 col-xxl-5 px-xxl-0 position-relative">
               <div class="slider hero__slider">
                 <div class="swiper slider-hero">
                   <div class="swiper-wrapper">
@@ -210,7 +210,7 @@
         <div class="container">
           <div class="section__header">
             <div class="row align-items-center">
-              <div class="col-6">
+              <div class="col-12 col-md-6">
                 <h2 class="section__title">
                   Прозрачный и понятный
                   <br>
@@ -219,7 +219,7 @@
               </div>
               <!-- /.col-6 -->
 
-              <div class="col-6 col-lg-5 col-xxl-6 offset-lg-1 offset-xxl-0">
+              <div class="col-12 col-md-6 col-lg-5 col-xxl-6 offset-lg-1 offset-xxl-0">
                 <p class="section__description">
                   Вы будете получать фото и видео
                   <br>
@@ -232,7 +232,7 @@
           </div>
           <!-- /.section__header -->
 
-          <div class="process__wrapper swiper swiper--bootstrap">
+          <div class="process__wrapper swiper swiper--bootstrap slider-process">
             <div class="row justify-content-between swiper-wrapper">
               <div class="col-6 col-lg-4 swiper-slide">
                 <div class="process__item">
@@ -349,6 +349,8 @@
               <!-- /.col-4 -->
             </div>
             <!-- /.row -->
+
+            <div class="swiper-scrollbar"></div>
           </div>
           <!-- /.process__wrapper -->
         </div>
@@ -363,18 +365,18 @@
       <div class="container">
         <div class="section__header">
           <div class="row align-items-center">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <h2 class="section__title">
                 Более <span>130 выполненых проектов</span>
                 <br class="d-none d-xl-block">
                 по всей
-                <br class="d-block d-xl-none">
+                <br class="d-none d-md-block d-xl-none">
                 Москве и области
               </h2>
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-6 col-lg-5 col-xxl-6 offset-lg-1 offset-xxl-0">
+            <div class="col-12 col-md-6 col-lg-5 col-xxl-6 offset-lg-1 offset-xxl-0">
               <p class="section__description">
                 По предварительной записи, Вы можете
                 посетить объект,
@@ -479,7 +481,7 @@
       <div class="container">
         <div class="section__header">
           <div class="row align-items-center">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <h2 class="section__title">
                 Предоставляем
                 <br>
@@ -488,7 +490,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-6 col-lg-5 col-xxl-6 offset-lg-1 offset-xxl-0">
+            <div class="col-12 col-md-6 col-lg-5 col-xxl-6 offset-lg-1 offset-xxl-0">
               <p class="section__description">
                 Несем ответственность
                 <br>
@@ -695,7 +697,7 @@
 
                               <h3 class="quiz-content__title">Укажите метериал дома:</h3>
                               <div class="row gy-4 gy-xxl-5">
-                                <div class="col-4">
+                                <div class="col-6 col-sm-4">
                                   <label class="checkbox checkbox--image" style="--image: url('../img/layout/section/quiz/content/material/1.jpg');">
                                     <input type="radio" name="material">
                                     <span class="checkbox__mark"></span>
@@ -704,7 +706,7 @@
                                 </div>
                                 <!-- /.col-4 -->
 
-                                <div class="col-4">
+                                <div class="col-6 col-sm-4">
                                   <label class="checkbox checkbox--image" style="--image: url('../img/layout/section/quiz/content/material/2.jpg');">
                                     <input type="radio" name="material">
                                     <span class="checkbox__mark"></span>
@@ -717,7 +719,7 @@
                                 </div>
                                 <!-- /.col-4 -->
 
-                                <div class="col-4">
+                                <div class="col-6 col-sm-4">
                                   <label class="checkbox checkbox--image" style="--image: url('../img/layout/section/quiz/content/material/3.jpg');">
                                     <input type="radio" name="material">
                                     <span class="checkbox__mark"></span>
@@ -730,7 +732,7 @@
                                 </div>
                                 <!-- /.col-4 -->
 
-                                <div class="col-4">
+                                <div class="col-6 col-sm-4">
                                   <label class="checkbox checkbox--image" style="--image: url('../img/layout/section/quiz/content/material/4.jpg');">
                                     <input type="radio" name="material">
                                     <span class="checkbox__mark"></span>
@@ -739,7 +741,7 @@
                                 </div>
                                 <!-- /.col-4 -->
 
-                                <div class="col-4">
+                                <div class="col-6 col-sm-4">
                                   <label class="checkbox checkbox--image" style="--image: url('../img/layout/section/quiz/content/material/5.jpg');">
                                     <input type="radio" name="material">
                                     <span class="checkbox__mark"></span>
@@ -759,8 +761,8 @@
                               <!-- /.quiz-content__counter -->
 
                               <h3 class="quiz-content__title">Есть ли у вас смета на внутреннюю отделку?</h3>
-                              <div class="row gy-4 gy-xxl-5">
-                                <div class="col-6 col-xxl-4">
+                              <div class="row gy-2 gy-sm-4 gy-xxl-5">
+                                <div class="col-12 col-sm-6 col-xxl-4">
                                   <label class="checkbox">
                                     <input type="radio" name="estimate">
                                     <span class="checkbox__mark"></span>
@@ -769,7 +771,7 @@
                                 </div>
                                 <!-- /.col-4 -->
 
-                                <div class="col-6 col-xxl-4">
+                                <div class="col-12 col-sm-6 col-xxl-4">
                                   <label class="checkbox">
                                     <input type="radio" name="estimate" checked>
                                     <span class="checkbox__mark"></span>
@@ -788,8 +790,8 @@
                               <!-- /.quiz-content__counter -->
 
                               <h3 class="quiz-content__title">Когда планируете начать работы по внутренней отделке?</h3>
-                              <div class="row gy-4 gy-xxl-5">
-                                <div class="col-6 col-xxl-4">
+                              <div class="row gy-2 gy-sm-4 gy-xxl-5">
+                                <div class="col-12 col-sm-6 col-xxl-4">
                                   <label class="checkbox">
                                     <input type="radio" name="deadline" checked>
                                     <span class="checkbox__mark"></span>
@@ -798,7 +800,7 @@
                                 </div>
                                 <!-- /.col-4 -->
 
-                                <div class="col-6 col-xxl-8">
+                                <div class="col-12 col-sm-6 col-xxl-8">
                                   <label class="checkbox">
                                     <input type="radio" name="deadline">
                                     <span class="checkbox__mark"></span>
@@ -807,7 +809,7 @@
                                 </div>
                                 <!-- /.col-8 -->
 
-                                <div class="col-6 col-xxl-4">
+                                <div class="col-12 col-sm-6 col-xxl-4">
                                   <label class="checkbox">
                                     <input type="radio" name="deadline">
                                     <span class="checkbox__mark"></span>
@@ -816,7 +818,7 @@
                                 </div>
                                 <!-- /.col-4 -->
 
-                                <div class="col-6 col-xxl-8">
+                                <div class="col-12 col-sm-6 col-xxl-8">
                                   <label class="checkbox">
                                     <input type="radio" name="deadline">
                                     <span class="checkbox__mark"></span>
@@ -835,8 +837,8 @@
                               <!-- /.quiz-content__counter -->
 
                               <h3 class="quiz-content__title">Когда планируете начать работы по внутренней отделке?</h3>
-                              <div class="row gy-4">
-                                <div class="col-6">
+                              <div class="row gy-2 gy-sm-4">
+                                <div class="col-12 col-sm-6">
                                   <label class="checkbox">
                                     <input type="checkbox" name="type">
                                     <span class="checkbox__mark"></span>
@@ -845,7 +847,7 @@
                                 </div>
                                 <!-- /.col-6 -->
 
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6">
                                   <label class="checkbox">
                                     <input type="checkbox" name="type">
                                     <span class="checkbox__mark"></span>
@@ -854,7 +856,7 @@
                                 </div>
                                 <!-- /.col-6 -->
 
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6">
                                   <label class="checkbox">
                                     <input type="checkbox" name="type">
                                     <span class="checkbox__mark"></span>
@@ -863,7 +865,7 @@
                                 </div>
                                 <!-- /.col-6 -->
 
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6">
                                   <label class="checkbox">
                                     <input type="checkbox" name="type">
                                     <span class="checkbox__mark"></span>
@@ -872,7 +874,7 @@
                                 </div>
                                 <!-- /.col-6 -->
 
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6">
                                   <label class="checkbox">
                                     <input type="checkbox" name="type">
                                     <span class="checkbox__mark"></span>
@@ -881,7 +883,7 @@
                                 </div>
                                 <!-- /.col-6 -->
 
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6">
                                   <label class="checkbox">
                                     <input type="checkbox" name="type">
                                     <span class="checkbox__mark"></span>
@@ -890,7 +892,7 @@
                                 </div>
                                 <!-- /.col-6 -->
 
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6">
                                   <label class="checkbox">
                                     <input type="checkbox" name="type">
                                     <span class="checkbox__mark"></span>
@@ -899,7 +901,7 @@
                                 </div>
                                 <!-- /.col-6 -->
 
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6 mt-3 mt-sm-0">
                                   <div class="input">
                                     <input placeholder="Свой вариант" autocomplete="off" type="text" name="type" class="input__field input__field--block">
                                     <span class="input__warning">Некорректное значение</span>
@@ -924,7 +926,7 @@
                               </h3>
 
                               <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6 mb-3 mb-sm-0">
                                   <div class="input">
                                     <input placeholder="Ваш телефон" autocomplete="off" type="tel" name="quiz_tel" class="input__field input__field--block">
                                     <span class="input__warning">Некорректное значение</span>
@@ -933,7 +935,7 @@
                                 </div>
                                 <!-- /.col-6 -->
 
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6">
                                   <div class="input">
                                     <input placeholder="Ваша почта" autocomplete="off" type="email" name="quiz_email" class="input__field input__field--block">
                                     <span class="input__warning">Некорректное значение</span>
@@ -954,8 +956,8 @@
                           <!-- /.swiper-wrapper -->
 
                           <div class="quiz-control">
-                            <button class="button button--arrow button-outline">Назад</button>
-                            <button class="button button--arrow button-primary">Далее</button>
+                            <button class="button button--arrow button-outline"><span>Назад</span></button>
+                            <button class="button button--arrow button-primary"><span>Далее</span></button>
                           </div>
                           <!-- /.quiz-control -->
                         </div>
@@ -1060,8 +1062,8 @@
         <div class="row">
           <div class="order-2 order-lg-0 col-12 col-lg-3 mt-5 mt-lg-0">
             <div class="row align-items-end">
-              <div class="col-6 col-lg-12">
-                <div class="footer__logo logo logo--header">
+              <div class="mb-3 mb-md-0 col-12 col-md-6 col-lg-12">
+                <div class="footer__logo logo logo--footer">
                   <a href="">
                     <img src="img/logo.png" alt="">
                   </a>
@@ -1076,7 +1078,7 @@
               </div>
               <!-- /.col-12 -->
 
-              <div class="col-6 col-lg-12">
+              <div class="col-12 col-md-6 col-lg-12">
                 <p class="footer__info">
                   ООО "Пайнвуд Хомс"
                   <br>
@@ -1091,7 +1093,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="order-0 order-lg-0 col-6 col-lg-4 col-xl-5">
+          <div class="mb-4 mb-md-0 order-0 order-lg-0 col-12 col-md-6 col-lg-4 col-xl-5">
             <div class="footer__nav">
               <nav class="nav nav--footer">
                 <ul class="nav__list">
@@ -1131,7 +1133,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="order-1 order-lg-0 col-6 col-lg-5 col-xl-4">
+          <div class="mb-4 mb-md-0 order-1 order-lg-0 col-12 col-md-6 col-lg-5 col-xl-4">
             <div class="footer__contact">
               <div class="callback-list">
                 <div class="callback-list__item">

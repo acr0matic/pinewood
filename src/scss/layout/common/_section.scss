@@ -4,6 +4,10 @@
       margin-bottom: 60px;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 40px;
+    }
+
     margin-bottom: 80px;
   }
 
@@ -14,6 +18,16 @@
 
     @include breakpoint($breakpoint-tablet--large) {
       font-size: $font-size__text--large;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 20px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      br {
+        display: none;
+      }
     }
 
     font-size: $font-size__title--medium;

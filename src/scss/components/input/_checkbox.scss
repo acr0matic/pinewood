@@ -25,6 +25,14 @@
         height: 100px;
       }
 
+      @include breakpoint($breakpoint-tablet) {
+        width: 75px;
+        height: 75px;
+
+        margin-bottom: 12px;
+        border-radius: 8px;
+      }
+
       width: 140px;
       height: 140px;
 
@@ -51,6 +59,12 @@
       &:checked ~ .checkbox__mark::before {
         background-color: rgba(#f5f1ec, 0.85);
         box-shadow: inset 0 0 0 4px $palette-green;
+      }
+    }
+
+    .checkbox__label {
+      @include breakpoint($breakpoint-mobile--medium) {
+        font-size: $font-size__text--small - 2px;
       }
     }
   }
@@ -88,6 +102,10 @@
     transition: all 0.15s ease;
 
     &::before {
+      @include breakpoint($breakpoint-tablet) {
+        border-radius: 8px;
+      }
+
       content: "";
       position: absolute;
       top: 0;
@@ -141,6 +159,10 @@
   &__label {
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-size__text--regular;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__text--small;
     }
 
     margin-top: 2px;

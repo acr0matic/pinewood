@@ -1,5 +1,11 @@
 .callback-list {
   &__item {
+    @include breakpoint($breakpoint-laptop--medium) {
+      br {
+        display: none;
+      }
+    }
+
     a {
       display: inline-flex;
       align-items: flex-start;

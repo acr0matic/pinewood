@@ -10,6 +10,10 @@
     padding: 20px 0;
   }
 
+  @include breakpoint($breakpoint-tablet) {
+    padding: 14px 0;
+  }
+
   position: sticky;
   z-index: $z-index-header;
   top: 0;

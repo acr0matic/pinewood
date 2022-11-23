@@ -70,6 +70,22 @@
       }
     }
   }
+
+  &-scrollbar {
+    border-radius: 0;
+    background-color: #e6e3db;
+  }
+
+  &-scrollbar-horizontal {
+    position: static !important;
+    height: 6px !important;
+    margin-top: 85px;
+  }
+
+  &-scrollbar-drag {
+    border-radius: 0;
+    background-color: $palette-green;
+  }
 }
 
 /* purgecss end ignore */

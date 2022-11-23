@@ -17,9 +17,9 @@ const hero = new Swiper('.slider-hero', {
 });
 
 const recentPortfolio = new Swiper('.slider-recent-portfolio', {
-  slidesPerView: 2,
+  slidesPerView: 1.15,
   speed: 300,
-  spaceBetween: 40,
+  spaceBetween: 32,
   simulateTouch: false,
 
   navigation: {
@@ -27,15 +27,22 @@ const recentPortfolio = new Swiper('.slider-recent-portfolio', {
     prevEl: '.portfolio-recent .swiper-button-prev',
   },
 
-  991: {
-    spaceBetween: 60,
+  breakpoints: {
+    768: {
+      spaceBetween: 40,
+      slidesPerView: 2,
+    },
+
+    991: {
+      spaceBetween: 60,
+    },
   },
 });
 
 const recentService = new Swiper('.slider-recent-service', {
-  slidesPerView: 2,
+  slidesPerView: 1.15,
   speed: 300,
-  spaceBetween: 75,
+  spaceBetween: 32,
   simulateTouch: false,
 
   navigation: {
@@ -44,6 +51,11 @@ const recentService = new Swiper('.slider-recent-service', {
   },
 
   breakpoints: {
+    768: {
+      spaceBetween: 75,
+      slidesPerView: 2,
+    },
+
     991: {
       spaceBetween: 30,
       slidesPerView: 3,
@@ -61,6 +73,7 @@ const quiz = new Swiper('.slider-quiz', {
   speed: 300,
   spaceBetween: 16,
   simulateTouch: false,
+  autoHeight: true,
 
   effect: 'fade',
   fadeEffect: {
@@ -78,7 +91,6 @@ const quiz = new Swiper('.slider-quiz', {
     },
   },
 });
-
 
 const quizInner = new Swiper('.slider-quiz-inner', {
   slidesPerView: 1,
@@ -105,5 +117,16 @@ const quizInner = new Swiper('.slider-quiz-inner', {
   },
 });
 
+if (isTablet) {
+  const process = new Swiper('.slider-process', {
+    slidesPerView: 1,
+    speed: 300,
+    spaceBetween: 16,
+    autoHeight: true,
 
+    scrollbar: {
+      el: '.slider-process .swiper-scrollbar',
+    },
+  });
+}
 

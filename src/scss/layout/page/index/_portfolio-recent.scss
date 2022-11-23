@@ -21,6 +21,10 @@
         top: initial;
         bottom: -125px;
       }
+
+      @include breakpoint($breakpoint-tablet) {
+        display: none;
+      }
     }
 
     .swiper-button-prev {

@@ -3,11 +3,19 @@
     margin-top: 130px;
   }
 
+  @include breakpoint($breakpoint-tablet) {
+    margin-top: 80px;
+  }
+
   margin-top: 225px;
 
   .section__header {
     @include breakpoint($breakpoint-laptop--medium) {
       margin-bottom: 100px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 50px;
     }
 
     margin-bottom: 125px;
@@ -45,6 +53,10 @@
   }
 
   &__background {
+    @include breakpoint($breakpoint-tablet) {
+      display: none;
+    }
+
     width: 100%;
     margin-top: -8%;
   }
@@ -88,6 +100,10 @@
   }
 
   &__description {
+    @include breakpoint($breakpoint-tablet) {
+      width: 100%;
+    }
+
     width: 80%;
   }
 }

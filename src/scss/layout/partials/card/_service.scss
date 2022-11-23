@@ -10,6 +10,14 @@
       height: 180px;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      height: 230px;
+    }
+
+    @include breakpoint($breakpoint-mobile--medium) {
+      height: 180px;
+    }
+
     height: 260px;
   }
 
