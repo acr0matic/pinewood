@@ -3,5 +3,29 @@
 // -----------------------------------------------------------------------------
 
 .page {
+  &__header {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-bottom: 40px;
+    }
 
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 30px;
+    }
+
+    margin-bottom: 50px;
+  }
+}
+
+main:not([id="home"]) {
+  @include breakpoint($breakpoint-laptop--medium) {
+    margin-top: 60px;
+  }
+
+  @include breakpoint($breakpoint-tablet) {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  margin-top: 24px;
+  margin-bottom: 80px;
 }

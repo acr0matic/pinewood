@@ -75,6 +75,14 @@
     }
   }
 
+  button {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--regular;
+    }
+
+    font-size: $font-size__text--big + 2px;
+  }
+
   position: absolute;
   z-index: 5;
   bottom: 0;

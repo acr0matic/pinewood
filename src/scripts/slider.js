@@ -29,11 +29,12 @@ const recentPortfolio = new Swiper('.slider-recent-portfolio', {
 
   breakpoints: {
     768: {
-      spaceBetween: 40,
       slidesPerView: 2,
+      spaceBetween: 40,
     },
 
     991: {
+      slidesPerView: 2,
       spaceBetween: 60,
     },
   },
@@ -73,7 +74,7 @@ const quiz = new Swiper('.slider-quiz', {
   speed: 300,
   spaceBetween: 16,
   simulateTouch: false,
-  autoHeight: true,
+  // autoHeight: true,
 
   effect: 'fade',
   fadeEffect: {
@@ -122,7 +123,7 @@ if (isTablet) {
     slidesPerView: 1,
     speed: 300,
     spaceBetween: 16,
-    autoHeight: true,
+    // autoHeight: true,
 
     scrollbar: {
       el: '.slider-process .swiper-scrollbar',

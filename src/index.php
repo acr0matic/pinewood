@@ -405,7 +405,7 @@
                       и увеличение срока службы каркаса
                     </p>
 
-                    <button class="service-card__button button button--arrow button-primary">Смотреть проект</button>
+                    <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
                   </div>
                   <!-- /.service-card__content -->
                 </div>
@@ -430,7 +430,7 @@
                       и увеличение срока службы каркаса
                     </p>
 
-                    <button class="service-card__button button button--arrow button-primary">Смотреть проект</button>
+                    <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
                   </div>
                   <!-- /.service-card__content -->
                 </div>
@@ -455,7 +455,7 @@
                       и увеличение срока службы каркаса
                     </p>
 
-                    <button class="service-card__button button button--arrow button-primary">Смотреть проект</button>
+                    <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
                   </div>
                   <!-- /.service-card__content -->
                 </div>
@@ -480,7 +480,7 @@
                       и увеличение срока службы каркаса
                     </p>
 
-                    <button class="service-card__button button button--arrow button-primary">Смотреть проект</button>
+                    <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
                   </div>
                   <!-- /.service-card__content -->
                 </div>
@@ -505,7 +505,7 @@
                       и увеличение срока службы каркаса
                     </p>
 
-                    <button class="service-card__button button button--arrow button-primary">Смотреть проект</button>
+                    <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
                   </div>
                   <!-- /.service-card__content -->
                 </div>

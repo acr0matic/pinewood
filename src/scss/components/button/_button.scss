@@ -3,7 +3,9 @@
     padding: 14px 40px;
   }
 
-  padding: 20px 35px;
+  display: inline-block;
+
+  padding: 20px 45px;
   border: 2px solid transparent;
   border-radius: 1000px;
   outline: none;
@@ -46,7 +48,6 @@
   &--arrow {
     @include breakpoint($breakpoint-laptop--medium) {
       min-width: 160px;
-      font-size: $font-size__text--regular;
     }
 
     display: inline-flex;
@@ -54,8 +55,6 @@
     justify-content: center;
 
     min-width: 220px;
-
-    font-size: $font-size__text--big + 2px;
 
     &::before,
     &::after {
