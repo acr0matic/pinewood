@@ -1,0 +1,26 @@
+.modal-success {
+  .modal__overlay {
+    align-items: center;
+  }
+
+  .modal__container {
+    @include breakpoint($breakpoint-tablet) {
+      padding: 36px;
+      border-radius: 20px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      max-width: 320px;
+    }
+  }
+
+  .modal__text {
+    br {
+      @include breakpoint($breakpoint-mobile--large) {
+        display: block;
+      }
+
+      display: none;
+    }
+  }
+}

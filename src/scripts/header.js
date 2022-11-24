@@ -1,8 +1,6 @@
 const header = document.getElementById('header');
 
 if (header) {
-  let isReach = false;
-
   const mobile = header.querySelector('.mobile-menu');
   const mobileNav = mobile.querySelectorAll('.nav__link');
   const burger = header.querySelector('.header__burger');

@@ -124,6 +124,9 @@
   <!-- /.container -->
 </footer>
 
+<?php include_once('modal/callback.php') ?>
+<?php include_once('modal/success.php') ?>
+
 <!-- Скрипты -->
 <!-- build:js js/script.min.js -->
 <script src="scripts/libraries/lazyload.js"></script>

@@ -9,7 +9,10 @@ const lazyLoadInstance = new LazyLoad({
   },
 });
 
+MicroModal.init(modalParams);
+
 const forms = document.querySelectorAll('form');
 forms.forEach(form => {
   new Form(form);
 });
+

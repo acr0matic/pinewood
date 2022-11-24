@@ -108,7 +108,7 @@
         <!-- /.row -->
 
         <div class="portfolio__action text-center">
-          <a href="" class="button button-outline mt-5">Загрузить еще</a>
+          <button class="button button-outline mt-5">Загрузить еще</button>
         </div>
         <!-- /.portfolio__action -->
       </div>

@@ -30,7 +30,7 @@
                   и увеличение срока службы каркаса
                 </p>
 
-                <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
+                <button data-micromodal-trigger="modal-callback" class="service-card__button button button--arrow button-primary">Оставить заявку</button>
               </div>
               <!-- /.service-card__content -->
             </div>
@@ -55,7 +55,7 @@
                   и увеличение срока службы каркаса
                 </p>
 
-                <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
+                <button data-micromodal-trigger="modal-callback" class="service-card__button button button--arrow button-primary">Оставить заявку</button>
               </div>
               <!-- /.service-card__content -->
             </div>
@@ -80,7 +80,7 @@
                   и увеличение срока службы каркаса
                 </p>
 
-                <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
+                <button data-micromodal-trigger="modal-callback" class="service-card__button button button--arrow button-primary">Оставить заявку</button>
               </div>
               <!-- /.service-card__content -->
             </div>
@@ -105,7 +105,7 @@
                   и увеличение срока службы каркаса
                 </p>
 
-                <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
+                <button data-micromodal-trigger="modal-callback" class="service-card__button button button--arrow button-primary">Оставить заявку</button>
               </div>
               <!-- /.service-card__content -->
             </div>
@@ -130,7 +130,7 @@
                   и увеличение срока службы каркаса
                 </p>
 
-                <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
+                <button data-micromodal-trigger="modal-callback" class="service-card__button button button--arrow button-primary">Оставить заявку</button>
               </div>
               <!-- /.service-card__content -->
             </div>
@@ -155,7 +155,7 @@
                   и увеличение срока службы каркаса
                 </p>
 
-                <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
+                <button data-micromodal-trigger="modal-callback" class="service-card__button button button--arrow button-primary">Оставить заявку</button>
               </div>
               <!-- /.service-card__content -->
             </div>
@@ -180,7 +180,7 @@
                   и увеличение срока службы каркаса
                 </p>
 
-                <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
+                <button data-micromodal-trigger="modal-callback" class="service-card__button button button--arrow button-primary">Оставить заявку</button>
               </div>
               <!-- /.service-card__content -->
             </div>
@@ -205,7 +205,7 @@
                   и увеличение срока службы каркаса
                 </p>
 
-                <button class="service-card__button button button--arrow button-primary">Оставить заявку</button>
+                <button data-micromodal-trigger="modal-callback" class="service-card__button button button--arrow button-primary">Оставить заявку</button>
               </div>
               <!-- /.service-card__content -->
             </div>
@@ -216,7 +216,7 @@
         <!-- /.row -->
 
         <div class="portfolio__action text-center">
-          <a href="" class="button button-outline mt-5">Загрузить еще</a>
+          <button class="button button-outline mt-5">Загрузить еще</button>
         </div>
         <!-- /.portfolio__action -->
       </div>

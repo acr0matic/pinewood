@@ -1,0 +1,19 @@
+.modal-callback {
+  .form__wrapper {
+    @include breakpoint($breakpoint-tablet) {
+      width: 70%;
+      margin-top: 24px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 100%;
+    }
+
+    width: 50%;
+    margin: 36px auto 0;
+  }
+
+  .input {
+    width: 100%;
+  }
+}
