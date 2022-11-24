@@ -1,8 +1,8 @@
 <?php include_once('layout/partials/header.php') ?>
 
 <!-- Основной контент -->
-<main id="portfolio" class="page">
-  <section id="portfolio" class="section">
+<main id="service" class="page">
+  <section id="service" class="section">
     <div class="container">
       <div class="section__header page__header">
         <h1 class="section__title text-center">
@@ -11,7 +11,7 @@
       </div>
       <!-- /.section__header -->
 
-      <div class="portfolio">
+      <div class="service">
         <div class="row g-4 g-xxl-5 justify-content-center">
           <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="card service-card">
@@ -215,12 +215,12 @@
         </div>
         <!-- /.row -->
 
-        <div class="portfolio__action text-center">
+        <div class="service__action text-center">
           <button class="button button-outline mt-5">Загрузить еще</button>
         </div>
-        <!-- /.portfolio__action -->
+        <!-- /.service__action -->
       </div>
-      <!-- /.portfolio -->
+      <!-- /.service -->
     </div>
     <!-- /.container -->
   </section>
