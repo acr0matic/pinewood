@@ -135,6 +135,7 @@
 <script src="scripts/libraries/swiper.min.js"></script>
 <script src="scripts/libraries/smoothScroll.min.js"></script>
 <script src="scripts/libraries/micromodal.min.js"></script>
+<script src="scripts/libraries/fslightbox.js"></script>
 
 <script src="scripts/base.js"></script>
 <script src="scripts/init.js"></script>

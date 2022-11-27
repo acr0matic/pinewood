@@ -14,6 +14,18 @@
 
     margin-bottom: 50px;
   }
+
+  &__text {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--large;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__text--big;
+    }
+
+    font-size: $font-size__text--large + 4px;
+  }
 }
 
 main:not([id="home"]) {

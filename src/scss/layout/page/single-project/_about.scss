@@ -1,0 +1,103 @@
+#single-project {
+  #about {
+  }
+
+  .about {
+    &__picture {
+      @include breakpoint($breakpoint-laptop--medium) {
+        height: 435px;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        overflow: hidden;
+        width: 50vw;
+        height: 330px;
+        border-radius: 30px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        height: 280px;
+        margin-bottom: 48px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        width: 100%;
+      }
+
+      @include breakpoint($breakpoint-mobile--medium) {
+        height: 230px;
+      }
+
+      overflow: hidden;
+      height: 525px;
+      border-radius: 60px;
+    }
+
+    &__info {
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: $font-size__text--big + 2px;
+      }
+
+      @include breakpoint($breakpoint-laptop) {
+        font-size: $font-size__text--small;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        margin-top: 40px;
+      }
+
+      margin-top: 70px;
+      border: 4px solid $palette-green;
+      border-radius: 20px;
+
+      font-size: $font-size__text--large;
+
+      .row {
+        & > * {
+          @include breakpoint($breakpoint-laptop--medium) {
+            padding: 30px 0 30px 40px;
+          }
+
+          @include breakpoint($breakpoint-laptop) {
+            padding: 16px 0 16px 20px;
+          }
+
+          @include breakpoint($breakpoint-mobile--large) {
+            padding: 16px 14px;
+          }
+
+          @include after-end(1) {
+            @include breakpoint($breakpoint-tablet) {
+              border-right: 0;
+            }
+
+            border-right: 2px solid $palette-green;
+          }
+
+          @include after-first(2) {
+            @include breakpoint($breakpoint-tablet) {
+              border-top: 2px solid $palette-green;
+            }
+          }
+
+          @include odd {
+            @include breakpoint($breakpoint-tablet) {
+              border-right: 2px solid $palette-green;
+            }
+          }
+
+          padding: 40px 0 40px 60px;
+        }
+      }
+
+      h3 {
+        margin-bottom: 4px;
+        font-weight: $weight-Regular;
+      }
+
+      span {
+        font-weight: $weight-SemiBold;
+      }
+    }
+  }
+}

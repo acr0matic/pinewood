@@ -34,6 +34,16 @@
   }
 }
 
+/// Select all children after the end to `$num`.
+/// @group with-arguments
+/// @content [Write the style you want to apply to the children, and it will be added within the @content directive]
+/// @param {number} $num - id of the child
+@mixin after-end($num) {
+  &:nth-last-child(n + #{$num + 1}) {
+    @content;
+  }
+}
+
 /// Select all children before `$num` from the last.
 /// @group with-arguments
 /// @content [Write the style you want to apply to the children, and it will be added within the @content directive]
