@@ -111,7 +111,7 @@
         </div>
         <!-- /.section__header -->
 
-        <div class="process__wrapper swiper swiper--bootstrap slider-process">
+        <div class="process__wrapper swiper swiper--bootstrap-md slider-process">
           <div class="row justify-content-between swiper-wrapper">
             <div class="col-6 col-lg-4 swiper-slide">
               <div class="process__item">
@@ -235,7 +235,7 @@
       </div>
       <!-- /.container -->
 
-      <img src="img/layout/page/index/process/background.svg" alt="" class="process__background">
+      <img src="img/common/forest.svg" alt="" class="process__background">
     </div>
     <!-- /.process -->
   </section>

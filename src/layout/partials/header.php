@@ -114,7 +114,7 @@
         </div>
         <!-- /.header__action -->
 
-        <div class="header__burger d-block d-lg-none ms-auto ms-md-4">
+        <div class="header__burger d-block d-lg-none ms-auto ms-lg-4">
           <button class="hamburger hamburger--squeeze" type="button">
             <span class="hamburger-box">
               <span class="hamburger-inner"></span>

@@ -1,0 +1,36 @@
+.team-card {
+  @include breakpoint($breakpoint-tablet) {
+    border-radius: 10px 10px 30px 30px;
+  }
+
+  border-radius: 15px 15px 45px 45px;
+
+  &__picture {
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 260px;
+    }
+
+    height: 350px;
+  }
+
+  &__wrapper {
+    @include breakpoint($breakpoint-laptop--medium) {
+      padding: 24px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      padding: 18px 12px;
+    }
+
+    padding: 30px;
+  }
+
+  &__name {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--big + 2px;
+    }
+
+    margin-bottom: 12px;
+    font-size: $font-size__text--large;
+  }
+}

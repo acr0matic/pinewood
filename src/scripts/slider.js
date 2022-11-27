@@ -118,6 +118,24 @@ const quizInner = new Swiper('.slider-quiz-inner', {
   },
 });
 
+if (isBigTablet) {
+  const team = new Swiper('.slider-team', {
+    slidesPerView: 1.1,
+    speed: 300,
+    spaceBetween: 16,
+
+    scrollbar: {
+      el: '.slider-team .swiper-scrollbar',
+    },
+
+    breakpoints: {
+      540: {
+        slidesPerView: 2.1,
+      },
+    },
+  });
+}
+
 if (isTablet) {
   const process = new Swiper('.slider-process', {
     slidesPerView: 1,

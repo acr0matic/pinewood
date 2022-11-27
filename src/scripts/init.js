@@ -4,8 +4,10 @@ const lazyLoadInstance = new LazyLoad({
   callback_loaded: (trigger) => {
     const container = trigger.closest('.lazy');
     const loader = container.querySelector('.preloader');
+    const play = container.querySelector('.play');
 
     if (loader) loader.classList.add('preloader--hide');
+    if (play) play.classList.add('play--show');
   },
 });
 

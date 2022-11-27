@@ -1,0 +1,9 @@
+.slider-team {
+  @include breakpoint($breakpoint-tablet--large) {
+    overflow: visible;
+  }
+
+  .swiper-scrollbar {
+    margin-top: 30px;
+  }
+}
