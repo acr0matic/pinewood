@@ -1,0 +1,50 @@
+#map {
+  @include breakpoint($breakpoint-tablet) {
+    margin-top: 100px;
+  }
+}
+
+.map {
+  &__address {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--big + 2px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__text--big;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__text--small;
+    }
+
+    font-size: $font-size__text--large;
+
+    br {
+      display: block;
+    }
+  }
+
+  &__wrapper {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-top: 36px;
+    }
+
+    margin-top: 48px;
+  }
+
+  &__frame {
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 425px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      height: 320px;
+      border-radius: 30px;
+    }
+
+    overflow: hidden;
+    height: 630px;
+    border-radius: 36px;
+  }
+}

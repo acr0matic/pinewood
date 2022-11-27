@@ -4,14 +4,15 @@
 
 #hero {
   @include breakpoint($breakpoint-tablet--large) {
+    overflow: hidden;
     padding-top: 60px;
   }
 
   @include breakpoint($breakpoint-tablet) {
+    overflow: initial;
     padding-top: 30px;
   }
 
-  overflow: hidden;
   padding-top: 100px;
 }
 
