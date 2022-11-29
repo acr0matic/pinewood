@@ -35,8 +35,8 @@
               </p>
 
               <div class="about__action d-none d-xl-flex">
-                <button class="button button-primary me-4">Рассчитать стоимость</button>
-                <button class="button button-outline">Посетить объект</button>
+                <button data-subject="Рассчитать стоимость" data-micromodal-trigger="modal-callback" class="button button-primary me-4">Рассчитать стоимость</button>
+                <button data-subject="Посетить готовый объект" data-micromodal-trigger="modal-visit" class=" button button-outline">Посетить объект</button>
               </div>
               <!-- /.about__action -->
             </div>

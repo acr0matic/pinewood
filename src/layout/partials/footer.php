@@ -126,6 +126,7 @@
 
 <?php include_once('modal/callback.php') ?>
 <?php include_once('modal/success.php') ?>
+<?php include_once('modal/visit.php') ?>
 
 <!-- Скрипты -->
 <!-- build:js js/script.min.js -->

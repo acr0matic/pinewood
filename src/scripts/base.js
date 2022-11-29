@@ -9,6 +9,8 @@ const modalParams = {
   disableFocus: true,
 }
 
+let currentModal = '';
+
 // const scrollParams = {
 //   speed: 500,
 //   speedAsDuration: true,
