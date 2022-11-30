@@ -780,7 +780,7 @@
                               </div>
                               <!-- /.col-6 -->
 
-                              <div class="col-12 col-sm-6 mt-3 mt-sm-0">
+                              <div class="col-12 col-sm-6 mt-3 mt-md-4">
                                 <div class="input">
                                   <input placeholder="Свой вариант" autocomplete="off" type="text" name="type" class="input__field input__field--block">
                                   <span class="input__warning">Некорректное значение</span>

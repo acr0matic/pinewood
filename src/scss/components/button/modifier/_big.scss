@@ -1,0 +1,8 @@
+.button--big {
+  @include breakpoint($breakpoint-tablet--large) {
+    padding: 20px;
+    font-size: 12px;
+  }
+
+  padding: 30px 35px;
+}

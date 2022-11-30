@@ -1,0 +1,41 @@
+.button--arrow {
+  @include breakpoint($breakpoint-laptop--medium) {
+    min-width: 160px;
+  }
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 220px;
+
+  &::before,
+  &::after {
+    margin-top: 5px;
+    transition: filter 0.2s ease;
+  }
+
+  &.button-outline {
+    @media (hover: hover) {
+      &:hover {
+        &::before {
+          filter: brightness(500%);
+        }
+      }
+    }
+
+    &::before {
+      content: url("../img/icons/control/arrow__left.svg");
+      margin-right: 20px;
+    }
+  }
+
+  &.button-primary {
+    &::after {
+      content: url("../img/icons/control/arrow__right.svg");
+      margin-left: 20px;
+
+      filter: brightness(500%);
+    }
+  }
+}

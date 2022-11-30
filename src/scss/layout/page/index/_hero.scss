@@ -90,6 +90,7 @@
   &__picture {
     @include breakpoint($breakpoint-laptop--medium) {
       height: 435px;
+      border-width: 3px;
     }
 
     @include breakpoint($breakpoint-tablet--large) {
@@ -103,6 +104,8 @@
 
     overflow: hidden;
     height: 575px;
+
+    border: 4px solid $palette-green;
     border-radius: 60px;
   }
 

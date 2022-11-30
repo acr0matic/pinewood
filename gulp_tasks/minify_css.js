@@ -18,7 +18,7 @@ task('minify_css', () => src(paths.styles.temp + paths.styles.out)
       content: ['src/**/*.{html,php}', 'src/**/*.js'],
     }),
   )
-  .pipe(gcmq())
+  // .pipe(gcmq())
   .pipe(cleanCSS({ level: 2 }))
   .pipe(rename(paths.styles.minify))
   .pipe(dest(paths.styles.dist)));

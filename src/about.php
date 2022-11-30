@@ -76,195 +76,204 @@
       </div>
       <!-- /.section__header -->
 
-      <div class="team swiper swiper--bootstrap-lg slider-team">
-        <div class="swiper-wrapper row gx-0 gx-md-4 gy-md-4 justify-content-md-center">
-          <div class="swiper-slide col-6 col-lg-4 col-xl-3">
-            <div class="card team-card">
-              <picture class="team-card__picture lazy">
-                <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
-                <img class="preloader" src="img/misc/preloader.svg" alt="">
-              </picture>
+      <div class="team">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xxl-10">
+            <div class="swiper swiper--bootstrap-lg slider-team">
+              <div class="swiper-wrapper row gx-0 gx-md-4 gy-md-4 justify-content-md-center">
+                <div class="swiper-slide col-6 col-lg-4 col-xl-3">
+                  <div class="card team-card">
+                    <picture class="team-card__picture lazy">
+                      <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
+                      <img class="preloader" src="img/misc/preloader.svg" alt="">
+                    </picture>
 
-              <div class="team-card__wrapper">
-                <h3 class="team-card__name">
-                  Данченко Александр
-                  Анатольевич
-                </h3>
+                    <div class="team-card__wrapper">
+                      <h3 class="team-card__name">
+                        Данченко Александр
+                        Анатольевич
+                      </h3>
 
-                <span class="team-card__role">
-                  Руководитель компании «Pinewood Homes»
-                </span>
+                      <span class="team-card__role">
+                        Руководитель компании «Pinewood Homes»
+                      </span>
+                    </div>
+                    <!-- /.team-card__wrapper -->
+                  </div>
+                  <!-- /.card team-card -->
+                </div>
+                <!-- /.col-6 col-lg-4 col-xl-3 -->
+
+                <div class="swiper-slide col-6 col-lg-4 col-xl-3">
+                  <div class="card team-card">
+                    <picture class="team-card__picture lazy">
+                      <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
+                      <img class="preloader" src="img/misc/preloader.svg" alt="">
+                    </picture>
+
+                    <div class="team-card__wrapper">
+                      <h3 class="team-card__name">
+                        Данченко Александр
+                        Анатольевич
+                      </h3>
+
+                      <span class="team-card__role">
+                        Руководитель компании «Pinewood Homes»
+                      </span>
+                    </div>
+                    <!-- /.team-card__wrapper -->
+                  </div>
+                  <!-- /.card team-card -->
+                </div>
+                <!-- /.col-6 col-lg-4 col-xl-3 -->
+
+                <div class="swiper-slide col-6 col-lg-4 col-xl-3">
+                  <div class="card team-card">
+                    <picture class="team-card__picture lazy">
+                      <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
+                      <img class="preloader" src="img/misc/preloader.svg" alt="">
+                    </picture>
+
+                    <div class="team-card__wrapper">
+                      <h3 class="team-card__name">
+                        Данченко Александр
+                        Анатольевич
+                      </h3>
+
+                      <span class="team-card__role">
+                        Руководитель компании «Pinewood Homes»
+                      </span>
+                    </div>
+                    <!-- /.team-card__wrapper -->
+                  </div>
+                  <!-- /.card team-card -->
+                </div>
+                <!-- /.col-6 col-lg-4 col-xl-3 -->
+
+                <div class="swiper-slide col-6 col-lg-4 col-xl-3">
+                  <div class="card team-card">
+                    <picture class="team-card__picture lazy">
+                      <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
+                      <img class="preloader" src="img/misc/preloader.svg" alt="">
+                    </picture>
+
+                    <div class="team-card__wrapper">
+                      <h3 class="team-card__name">
+                        Данченко Александр
+                        Анатольевич
+                      </h3>
+
+                      <span class="team-card__role">
+                        Руководитель компании «Pinewood Homes»
+                      </span>
+                    </div>
+                    <!-- /.team-card__wrapper -->
+                  </div>
+                  <!-- /.card team-card -->
+                </div>
+                <!-- /.col-6 col-lg-4 col-xl-3 -->
+
+                <div class="swiper-slide col-6 col-lg-4 col-xl-3">
+                  <div class="card team-card">
+                    <picture class="team-card__picture lazy">
+                      <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
+                      <img class="preloader" src="img/misc/preloader.svg" alt="">
+                    </picture>
+
+                    <div class="team-card__wrapper">
+                      <h3 class="team-card__name">
+                        Данченко Александр
+                        Анатольевич
+                      </h3>
+
+                      <span class="team-card__role">
+                        Руководитель компании «Pinewood Homes»
+                      </span>
+                    </div>
+                    <!-- /.team-card__wrapper -->
+                  </div>
+                  <!-- /.card team-card -->
+                </div>
+                <!-- /.col-6 col-lg-4 col-xl-3 -->
+
+                <div class="swiper-slide col-6 col-lg-4 col-xl-3">
+                  <div class="card team-card">
+                    <picture class="team-card__picture lazy">
+                      <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
+                      <img class="preloader" src="img/misc/preloader.svg" alt="">
+                    </picture>
+
+                    <div class="team-card__wrapper">
+                      <h3 class="team-card__name">
+                        Данченко Александр
+                        Анатольевич
+                      </h3>
+
+                      <span class="team-card__role">
+                        Руководитель компании «Pinewood Homes»
+                      </span>
+                    </div>
+                    <!-- /.team-card__wrapper -->
+                  </div>
+                  <!-- /.card team-card -->
+                </div>
+                <!-- /.col-6 col-lg-4 col-xl-3 -->
+
+                <div class="swiper-slide col-6 col-lg-4 col-xl-3">
+                  <div class="card team-card">
+                    <picture class="team-card__picture lazy">
+                      <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
+                      <img class="preloader" src="img/misc/preloader.svg" alt="">
+                    </picture>
+
+                    <div class="team-card__wrapper">
+                      <h3 class="team-card__name">
+                        Данченко Александр
+                        Анатольевич
+                      </h3>
+
+                      <span class="team-card__role">
+                        Руководитель компании «Pinewood Homes»
+                      </span>
+                    </div>
+                    <!-- /.team-card__wrapper -->
+                  </div>
+                  <!-- /.card team-card -->
+                </div>
+                <!-- /.col-6 col-lg-4 col-xl-3 -->
+
+                <div class="swiper-slide col-6 col-lg-4 col-xl-3">
+                  <div class="card team-card">
+                    <picture class="team-card__picture lazy">
+                      <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
+                      <img class="preloader" src="img/misc/preloader.svg" alt="">
+                    </picture>
+
+                    <div class="team-card__wrapper">
+                      <h3 class="team-card__name">
+                        Данченко Александр
+                        Анатольевич
+                      </h3>
+
+                      <span class="team-card__role">
+                        Руководитель компании «Pinewood Homes»
+                      </span>
+                    </div>
+                    <!-- /.team-card__wrapper -->
+                  </div>
+                  <!-- /.card team-card -->
+                </div>
+                <!-- /.col-6 col-lg-4 col-xl-3 -->
               </div>
-              <!-- /.team-card__wrapper -->
+              <!-- /.row -->
+
+              <div class="swiper-scrollbar"></div>
             </div>
-            <!-- /.card team-card -->
+            <!-- /.swiper -->
           </div>
-          <!-- /.col-6 col-lg-4 col-xl-3 -->
-
-          <div class="swiper-slide col-6 col-lg-4 col-xl-3">
-            <div class="card team-card">
-              <picture class="team-card__picture lazy">
-                <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
-                <img class="preloader" src="img/misc/preloader.svg" alt="">
-              </picture>
-
-              <div class="team-card__wrapper">
-                <h3 class="team-card__name">
-                  Данченко Александр
-                  Анатольевич
-                </h3>
-
-                <span class="team-card__role">
-                  Руководитель компании «Pinewood Homes»
-                </span>
-              </div>
-              <!-- /.team-card__wrapper -->
-            </div>
-            <!-- /.card team-card -->
-          </div>
-          <!-- /.col-6 col-lg-4 col-xl-3 -->
-
-          <div class="swiper-slide col-6 col-lg-4 col-xl-3">
-            <div class="card team-card">
-              <picture class="team-card__picture lazy">
-                <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
-                <img class="preloader" src="img/misc/preloader.svg" alt="">
-              </picture>
-
-              <div class="team-card__wrapper">
-                <h3 class="team-card__name">
-                  Данченко Александр
-                  Анатольевич
-                </h3>
-
-                <span class="team-card__role">
-                  Руководитель компании «Pinewood Homes»
-                </span>
-              </div>
-              <!-- /.team-card__wrapper -->
-            </div>
-            <!-- /.card team-card -->
-          </div>
-          <!-- /.col-6 col-lg-4 col-xl-3 -->
-
-          <div class="swiper-slide col-6 col-lg-4 col-xl-3">
-            <div class="card team-card">
-              <picture class="team-card__picture lazy">
-                <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
-                <img class="preloader" src="img/misc/preloader.svg" alt="">
-              </picture>
-
-              <div class="team-card__wrapper">
-                <h3 class="team-card__name">
-                  Данченко Александр
-                  Анатольевич
-                </h3>
-
-                <span class="team-card__role">
-                  Руководитель компании «Pinewood Homes»
-                </span>
-              </div>
-              <!-- /.team-card__wrapper -->
-            </div>
-            <!-- /.card team-card -->
-          </div>
-          <!-- /.col-6 col-lg-4 col-xl-3 -->
-
-          <div class="swiper-slide col-6 col-lg-4 col-xl-3">
-            <div class="card team-card">
-              <picture class="team-card__picture lazy">
-                <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
-                <img class="preloader" src="img/misc/preloader.svg" alt="">
-              </picture>
-
-              <div class="team-card__wrapper">
-                <h3 class="team-card__name">
-                  Данченко Александр
-                  Анатольевич
-                </h3>
-
-                <span class="team-card__role">
-                  Руководитель компании «Pinewood Homes»
-                </span>
-              </div>
-              <!-- /.team-card__wrapper -->
-            </div>
-            <!-- /.card team-card -->
-          </div>
-          <!-- /.col-6 col-lg-4 col-xl-3 -->
-
-          <div class="swiper-slide col-6 col-lg-4 col-xl-3">
-            <div class="card team-card">
-              <picture class="team-card__picture lazy">
-                <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
-                <img class="preloader" src="img/misc/preloader.svg" alt="">
-              </picture>
-
-              <div class="team-card__wrapper">
-                <h3 class="team-card__name">
-                  Данченко Александр
-                  Анатольевич
-                </h3>
-
-                <span class="team-card__role">
-                  Руководитель компании «Pinewood Homes»
-                </span>
-              </div>
-              <!-- /.team-card__wrapper -->
-            </div>
-            <!-- /.card team-card -->
-          </div>
-          <!-- /.col-6 col-lg-4 col-xl-3 -->
-
-          <div class="swiper-slide col-6 col-lg-4 col-xl-3">
-            <div class="card team-card">
-              <picture class="team-card__picture lazy">
-                <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
-                <img class="preloader" src="img/misc/preloader.svg" alt="">
-              </picture>
-
-              <div class="team-card__wrapper">
-                <h3 class="team-card__name">
-                  Данченко Александр
-                  Анатольевич
-                </h3>
-
-                <span class="team-card__role">
-                  Руководитель компании «Pinewood Homes»
-                </span>
-              </div>
-              <!-- /.team-card__wrapper -->
-            </div>
-            <!-- /.card team-card -->
-          </div>
-          <!-- /.col-6 col-lg-4 col-xl-3 -->
-
-          <div class="swiper-slide col-6 col-lg-4 col-xl-3">
-            <div class="card team-card">
-              <picture class="team-card__picture lazy">
-                <img class="image image--cover lazy__item" data-src="https://picsum.photos/1500?random=1" alt="">
-                <img class="preloader" src="img/misc/preloader.svg" alt="">
-              </picture>
-
-              <div class="team-card__wrapper">
-                <h3 class="team-card__name">
-                  Данченко Александр
-                  Анатольевич
-                </h3>
-
-                <span class="team-card__role">
-                  Руководитель компании «Pinewood Homes»
-                </span>
-              </div>
-              <!-- /.team-card__wrapper -->
-            </div>
-            <!-- /.card team-card -->
-          </div>
-          <!-- /.col-6 col-lg-4 col-xl-3 -->
+          <!-- /.col-12 col-xxl-10 -->
         </div>
         <!-- /.row -->
-
-        <div class="swiper-scrollbar"></div>
       </div>
       <!-- /.team -->
     </div>

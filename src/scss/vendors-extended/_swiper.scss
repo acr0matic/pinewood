@@ -21,6 +21,10 @@
     box-sizing: border-box;
   }
 
+  &-slide {
+    height: initial;
+  }
+
   &-button {
     &-prev,
     &-next {

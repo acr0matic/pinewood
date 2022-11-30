@@ -75,7 +75,7 @@
         <div class="header__nav d-none d-lg-block">
           <nav class="nav nav--header">
             <ul class="nav__list">
-              <li class="nav__item link">
+              <li class="nav__item nav__item--current link">
                 <a class="nav__link" href="">Проекты</a>
               </li>
 
@@ -127,5 +127,5 @@
     </div>
     <!-- /.container -->
 
-   <?php include_once('menu/mobile.php') ?>
+    <?php include_once('menu/mobile.php') ?>
   </header>

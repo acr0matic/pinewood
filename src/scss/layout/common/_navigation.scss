@@ -8,6 +8,9 @@
   }
 
   &__item {
+    &--current a {
+      color: $palette-green;
+    }
   }
 
   &__link {

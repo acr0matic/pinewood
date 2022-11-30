@@ -1,0 +1,12 @@
+.button--icon {
+  @include breakpoint($breakpoint-tablet--large) {
+    padding: 15px;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  padding: 25px;
+}
