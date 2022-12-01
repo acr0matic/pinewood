@@ -9,8 +9,17 @@
       width: 100%;
     }
 
-    width: 50%;
+    width: 65%;
     margin: 36px auto 0;
+
+    .button {
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: $font-size__text--big;
+      }
+
+      width: 100%;
+      font-size: $font-size__text--large - 2px;
+    }
   }
 
   .input {

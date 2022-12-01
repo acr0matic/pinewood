@@ -28,7 +28,7 @@ $transition-time: 0.2s;
     }
 
     @include breakpoint($breakpoint-mobile--large) {
-      padding: 36px;
+      padding: 24px;
       padding-top: 64px;
 
       border-bottom-right-radius: 0;
